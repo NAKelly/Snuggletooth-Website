@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Codystar);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	position: fixed;
+	
+	
+}
+
+img {
+	width: 30px;
+	height: 30px;
+
+
+
+}
+li{
+	
+}
+ul li {
+	list-style-type: none;
+	display: inline;
+
+
+	
+
+}
+.message {
+	margin-left: 20%;
+	margin-top: 20%;
+	z-index: 1;
+	position: absolute;
+	font-family: Lobster, Codystar, arial;
+	font-size: 3.5em;
+	color:white;
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+
+
+}
+
+
+
+.links {
+	float: right;
+	padding-right: 1em;
+	
+}
+
+
+#SketchPad {
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	
+
+
+}
+
+#DownloadPng {
+
+	padding: 4px 2px;
+	font-size: 1em;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+	color: #fff;
+	display:inline-block;
+	/*vertical-align: middle;
+	text-align: center;*/
+	cursor: pointer;
+	font-weight: bold;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	font-family: Impact, sans-serif;
+	background-color: #2ecc71;
+	box-shadow: 0px 7px 0px 0px #27ae60;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#DownloadPng:hover {
+	background-color: #27ae60;
+	border-radius: 7px;
+}
+
+#DownloadPng:active {
+	box-shadow: 0px 1px 0px 0px #27ae60;
+	border-radius: 7px;
+}
+
+#SketchTools {
+	width: 65%;
+	height: 5%;
+	position: fixed;
+	float: left;
+	z-index: 1;
+	padding: .2em;
+}
+footer {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	height:4.5%;
+	margin: 0;
+	text-align: center;
+	border-top: solid 2px;
+	z-index: 1;
+	position: fixed;
+	bottom:0;
+	font-family:  sans-serif, black;
+	 
+}
+
+
+	
+
+
